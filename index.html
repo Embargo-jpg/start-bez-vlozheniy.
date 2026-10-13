@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101526">
+<title>Старт без вложений — идеи заработка</title>
+<style>
+:root{--bg:#0d1220;--panel:#151d30;--panel2:#1c2740;--text:#f4f7ff;--muted:#aebbd3;--accent:#7c5cff;--green:#39d6a4;--border:#2a3652}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at 85% 0%,#29204e 0,transparent 32%),var(--bg);color:var(--text);line-height:1.55}
+a{color:inherit}.wrap{width:min(1120px,92%);margin:auto}.top{padding:22px 0;display:flex;align-items:center;justify-content:space-between;gap:16px}.logo{font-weight:850;letter-spacing:-.04em;font-size:1.15rem}.logo span{color:var(--green)}.tag{font-size:.8rem;color:var(--green);border:1px solid #286c60;border-radius:999px;padding:6px 10px}
+.hero{padding:54px 0 42px;display:grid;grid-template-columns:1.25fr .75fr;gap:28px;align-items:center}.eyebrow{color:var(--green);text-transform:uppercase;letter-spacing:.13em;font-size:.75rem;font-weight:800}h1{font-size:clamp(2.4rem,6vw,4.7rem);line-height:1.02;letter-spacing:-.055em;margin:14px 0 18px}.hero p{color:var(--muted);font-size:1.1rem;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{border:0;border-radius:13px;padding:13px 18px;font-weight:800;text-decoration:none;cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:8px}.primary{background:var(--green);color:#071b18}.secondary{background:#202b44;border:1px solid var(--border);color:var(--text)}.hero-card{background:linear-gradient(145deg,#1d2a47,#151b2d);border:1px solid var(--border);padding:25px;border-radius:24px;box-shadow:0 22px 70px #0003}.hero-card .big{font-size:2.4rem;font-weight:900;letter-spacing:-.05em}.hero-card p{font-size:.95rem}.mini{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px}.mini div{padding:13px;border-radius:13px;background:#0f1729;border:1px solid var(--border)}.mini b{display:block;font-size:1.15rem}.mini small{color:var(--muted)}
+section{padding:30px 0 42px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:20px}h2{font-size:clamp(1.6rem,3vw,2.3rem);letter-spacing:-.04em;margin:0}.sub{color:var(--muted);margin:6px 0 0}.filters{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.filter{background:transparent;color:var(--muted);border:1px solid var(--border);padding:8px 13px;border-radius:999px;cursor:pointer}.filter.active{background:var(--panel2);border-color:var(--accent);color:white}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{background:linear-gradient(160deg,var(--panel),#111827);border:1px solid var(--border);border-radius:20px;padding:20px;display:flex;flex-direction:column;min-height:260px}.icon{width:46px;height:46px;border-radius:14px;background:#29234c;display:grid;place-items:center;font-size:1.45rem;margin-bottom:15px}.card h3{margin:0 0 8px;font-size:1.12rem}.card p{color:var(--muted);font-size:.93rem;margin:0 0 16px}.meta{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:17px}.pill{font-size:.75rem;border:1px solid var(--border);border-radius:999px;padding:4px 8px;color:#d6def0}.card .btn{margin-top:auto;width:100%;font-size:.9rem}.note{margin-top:16px;padding:13px 15px;border-left:3px solid #f0bb58;background:#2a2419;border-radius:0 12px 12px 0;color:#f4dfb4;font-size:.88rem}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.step{padding:19px;border:1px solid var(--border);border-radius:18px;background:#121a2a}.num{font-size:.8rem;color:var(--green);font-weight:900}.step h3{margin:7px 0}.step p{margin:0;color:var(--muted);font-size:.92rem}
+.calc{display:grid;grid-template-columns:1fr 1fr;gap:22px;background:linear-gradient(135deg,#1b2540,#141a2b);border:1px solid var(--border);border-radius:22px;padding:23px}.control{margin:15px 0}.control label{display:flex;justify-content:space-between;gap:12px;margin-bottom:7px}.control input{width:100%;accent-color:var(--green)}.result{border-radius:17px;background:#0d1525;padding:20px;display:flex;flex-direction:column;justify-content:center}.result small{color:var(--muted)}.result strong{font-size:2.2rem;letter-spacing:-.05em}.fine{font-size:.82rem;color:var(--muted)}
+footer{border-top:1px solid var(--border);padding:25px 0 40px;color:var(--muted);font-size:.85rem}.footerline{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+dialog{background:#151d30;color:var(--text);border:1px solid var(--border);border-radius:20px;padding:24px;max-width:500px;width:calc(100% - 30px)}dialog::backdrop{background:#050812bb}dialog h3{margin-top:0}dialog p{color:var(--muted)}.close{float:right;background:transparent;color:white;border:0;font-size:1.5rem;cursor:pointer}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:30px}.grid{grid-template-columns:repeat(2,1fr)}.steps{grid-template-columns:1fr}.calc{grid-template-columns:1fr}.section-head{display:block}}
+@media(max-width:520px){.grid{grid-template-columns:1fr}.top{align-items:flex-start}.tag{font-size:.7rem}.hero-card{padding:19px}}
+</style>
+</head>
+<body>
+<header class="wrap top">
+  <div class="logo">СТАРТ<span>•</span>БЕЗ ВЛОЖЕНИЙ</div>
+  <div class="tag">Бесплатный старт · без обещаний лёгких денег</div>
+</header>
+<main>
+  <section class="wrap hero">
+    <div>
+      <div class="eyebrow">Практичный план для новичка</div>
+      <h1>Начни зарабатывать<br>с того, что уже умеешь.</h1>
+      <p>Подборка реальных направлений, понятные первые шаги и простой калькулятор дохода. Не нужно платить за доступ к списку или покупать «секретный курс».</p>
+      <div class="actions">
+        <a class="btn primary" href="#ideas">Выбрать способ <span>↓</span></a>
+        <a class="btn secondary" href="#plan">План на 7 дней</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <div class="eyebrow">Главный принцип</div>
+      <div class="big">Сначала тест → потом масштаб</div>
+      <p>Выбери одно направление, проверь спрос и потрать первые 30–60 минут на конкретное действие. Доход не гарантирован — результат зависит от спроса, навыков и доступности платформ в твоей стране.</p>
+      <div class="mini">
+        <div><b>0 ₽</b><small>на вход в план</small></div>
+        <div><b>7 дней</b><small>на первый тест</small></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ideas" class="wrap">
+    <div class="section-head">
+      <div><h2>Выбери направление</h2><p class="sub">Фильтруй варианты и открывай инструкцию.</p></div>
+    </div>
+    <div class="filters" role="group" aria-label="Фильтр идей">
+      <button class="filter active" data-filter="all">Все варианты</button>
+      <button class="filter" data-filter="online">Онлайн</button>
+      <button class="filter" data-filter="skills">На навыках</button>
+      <button class="filter" data-filter="quick">Можно начать сегодня</button>
+    </div>
+    <div class="grid" id="ideaGrid">
+      <article class="card" data-tags="online quick">
+        <div class="icon">🧩</div><h3>Toloka</h3>
+        <p>Микрозадачи и разметка данных. Официальная документация указывает Papara для вывода в Турции.</p>
+        <div class="meta"><span class="pill">Турция: Papara</span><span class="pill">Комиссия 2%</span></div>
+        <a class="btn secondary" href="https://toloka.ai/get-started" target="_blank" rel="noopener">Официальный сайт ↗</a>
+        <button class="btn secondary" data-detail="toloka">Условия выплат</button>
+      </article>
+      <article class="card" data-tags="online quick">
+        <div class="icon">🖱️</div><h3>Clickworker</h3>
+        <p>Микрозадания, проверка и обработка данных. Регистрация и способы оплаты зависят от страны и доступных проектов.</p>
+        <div class="meta"><span class="pill">Проверить доступность</span><span class="pill">Payoneer может быть доступен</span></div>
+        <a class="btn secondary" href="https://www.clickworker.com/clickworker/" target="_blank" rel="noopener">Официальный сайт ↗</a>
+        <button class="btn secondary" data-detail="clickworker">Условия выплат</button>
+      </article>
+      <article class="card" data-tags="online skills">
+        <div class="icon">🧰</div><h3>Fiverr</h3>
+        <p>Продавай услуги: дизайн карточек, оформление объявлений, игровые консультации или языковую помощь.</p>
+        <div class="meta"><span class="pill">Нужны примеры работ</span><span class="pill">Комиссии возможны</span></div>
+        <a class="btn secondary" href="https://www.fiverr.com/" target="_blank" rel="noopener">Официальный сайт ↗</a>
+        <button class="btn secondary" data-detail="fiverr">Условия выплат</button>
+      </article>
+      <article class="card" data-tags="online skills">
+        <div class="icon">💼</div><h3>Upwork</h3>
+        <p>Фриланс-заказы: поддержка клиентов, тексты, переводы, дизайн и другие услуги. Конкуренция высокая.</p>
+        <div class="meta"><span class="pill">Нужен профиль</span><span class="pill">Комиссия 0–15%</span></div>
+        <a class="btn secondary" href="https://www.upwork.com/" target="_blank" rel="noopener">Официальный сайт ↗</a>
+        <button class="btn secondary" data-detail="upwork">Условия выплат</button>
+      </article>
+      <article class="card" data-tags="online quick">
+        <div class="icon">📋</div><h3>ySense</h3>
+        <p>Опросы и онлайн-предложения. Наличие заданий, способов вывода и порога выплаты зависит от аккаунта и страны.</p>
+        <div class="meta"><span class="pill">Доход нерегулярный</span><span class="pill">Проверить Cashout</span></div>
+        <a class="btn secondary" href="https://www.ysense.com/" target="_blank" rel="noopener">Официальный сайт ↗</a>
+        <button class="btn secondary" data-detail="ysense">Условия выплат</button>
+      </article>
+      <article class="card" data-tags="online skills">
+        <div class="icon">🌐</div><h3>Прямые услуги клиентам</h3>
+        <p>Предлагай русско-турецкую переписку, создание карточек или помощь с объявлениями местным бизнесам.</p>
+        <div class="meta"><span class="pill">Без платформенной комиссии</span><span class="pill">Договорись об оплате</span></div>
+        <button class="btn secondary" data-detail="direct">Как начать</button>
+      </article>
+    </div>
+    <div class="note">Важно для Турции: PayPal официально не позволяет клиентам в Турции отправлять и получать деньги. Поэтому не регистрируйся на платформе, если это единственный доступный вывод. Никогда не плати за «активацию заработка», не передавай пароль или SMS-коды и используй только свои настоящие данные. <a href="https://history.paypal.com/tr/home" target="_blank" rel="noopener">Официальное уведомление PayPal</a>.</div>
+    <p class="fine">Каталог проверен по официальным страницам справки 13 октября 2026 года. Условия и доступность могут измениться; всегда перепроверяй их в личном кабинете до выполнения заданий.</p>
+  </section>
+
+  <section id="plan" class="wrap">
+    <div class="section-head"><div><h2>План на первые 7 дней</h2><p class="sub">Цель — проверить идею, а не обещать заработок за неделю.</p></div></div>
+    <div class="steps">
+      <div class="step"><div class="num">ДЕНЬ 1–2</div><h3>Выбери одну услугу</h3><p>Сформулируй, кому и какую конкретную задачу ты можешь решить. Не распыляйся на десять направлений.</p></div>
+      <div class="step"><div class="num">ДЕНЬ 3–4</div><h3>Сделай пример</h3><p>Подготовь образец работы или короткое описание услуги. Укажи честные сроки, цену и ограничения.</p></div>
+      <div class="step"><div class="num">ДЕНЬ 5–7</div><h3>Проверь спрос</h3><p>Напиши потенциальным клиентам или подай заявки на подходящие задания. Запиши ответы и скорректируй предложение.</p></div>
+    </div>
+  </section>
+
+  <section class="wrap" id="calculator">
+    <div class="section-head"><div><h2>Калькулятор возможного дохода</h2><p class="sub">Это сценарий для планирования, а не прогноз или гарантия.</p></div></div>
+    <div class="calc">
+      <div>
+        <div class="control"><label for="orders">Заказов в неделю <b id="ordersVal">3</b></label><input id="orders" type="range" min="0" max="30" value="3"></div>
+        <div class="control"><label for="price">Доход за заказ <b id="priceVal">500 ₽</b></label><input id="price" type="range" min="100" max="5000" step="100" value="500"></div>
+        <div class="control"><label for="costs">Расходы в месяц <b id="costsVal">0 ₽</b></label><input id="costs" type="range" min="0" max="10000" step="250" value="0"></div>
+        <p class="fine">Поменяй значения под свой сценарий. Комиссии платформ, налоги и возвраты не учтены.</p>
+      </div>
+      <div class="result"><small>Условный результат за месяц</small><strong id="monthly">6 495 ₽</strong><small id="annual">Около 77 940 ₽ за 12 месяцев при тех же условиях.</small></div>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footerline"><div>СТАРТ•БЕЗ ВЛОЖЕНИЙ — демонстрационный сайт</div><div>Информация образовательная. Доход не гарантируется.</div></div></footer>
+
+<dialog id="detailDialog">
+  <button class="close" aria-label="Закрыть" id="closeDialog">×</button>
+  <h3 id="dialogTitle">Как начать</h3>
+  <div id="dialogBody"></div>
+  <button class="btn primary" id="dialogDone">Понятно</button>
+</dialog>
+<script>
+const details = {
+ toloka:{title:"Toloka — условия для Турции",body:"<p><b>Выплаты:</b> официальная документация Toloka указывает Papara для Турции, перевод в турецкие лиры, комиссию 2% и минимальный вывод $0,05. Обычно перевод занимает несколько дней, но в документации указан максимальный срок до 30 дней.</p><p><b>Важно:</b> способы вывода, доступные задания и требования могут меняться. Перед выполнением заданий открой раздел выплат своего аккаунта и убедись, что Papara доступна именно тебе. Имя в платёжном аккаунте должно совпадать с данными Toloka.</p><p><a href='https://github.com/Toloka/docs-tolokers/blob/main/en/common/pay/papara.md' target='_blank' rel='noopener'>Источник: официальная документация о Papara</a> · <a href='https://github.com/Toloka/docs-tolokers/blob/main/en/common/pay/about.md' target='_blank' rel='noopener'>Все способы вывода</a></p>"},
+ clickworker:{title:"Clickworker — сначала проверь выплаты",body:"<p>Clickworker предупреждает, что регистрацию могут временно отключать для отдельных стран, а методы оплаты различаются по стране.</p><p><b>Ориентиры по официальной справке:</b> PayPal — минимальная выплата €10, Payoneer — $/€20. Но PayPal не работает для получения платежей резидентами Турции, поэтому не рассчитывай на него. Регистрируйся только если страна доступна и в разделе Payment details показывается подходящий тебе способ вывода.</p><p><a href='https://support-workplace.clickworker.com/support/solutions/articles/80000671469-is-it-possible-to-work-for-clickworker-from-many-countries-all-over-the-world-' target='_blank' rel='noopener'>Источник: доступность по странам</a> · <a href='https://support-workplace.clickworker.com/support/solutions/articles/80000672350-which-payment-methods-are-available-' target='_blank' rel='noopener'>Источник: методы и пороги выплат</a> · <a href='https://history.paypal.com/tr/home' target='_blank' rel='noopener'>PayPal: официальное уведомление для Турции</a></p>"},
+ fiverr:{title:"Fiverr — продажа собственных услуг",body:"<p>Подойдёт, если можешь предложить конкретную услугу и подготовить примеры работ. Регистрация бесплатная, но платформа удерживает комиссию с заказов.</p><p><b>Выплаты:</b> в справке Fiverr указаны Payoneer и банковский перевод через Payoneer. Для банковского перевода указан минимум $20 и комиссия $1; Payoneer account — минимум $10 и комиссия $3. Проверь, какие методы доступны в твоём аккаунте и какие дополнительные комиссии может брать провайдер.</p><p><a href='https://help.fiverr.com/hc/en-us/articles/360010530058-Withdrawing-your-earnings-managing-payout-methods' target='_blank' rel='noopener'>Источник: официальные способы вывода</a></p>"},
+ upwork:{title:"Upwork — фриланс-заказы",body:"<p>Подходит для более серьёзных заказов, но первый клиент может найтись не сразу. Создай профиль и откликайся только на задачи, которые действительно можешь выполнить.</p><p><b>Выплаты:</b> Upwork указывает среди возможных методов перевод на местный банковский счёт вне США ($0,99 за перевод), Payoneer и PayPal. Доступность зависит от страны и аккаунта; доступные варианты будут показаны в настройках выплат. Комиссия фрилансера обычно составляет 0–15% в зависимости от контракта.</p><p><a href='https://support.upwork.com/hc/en-us/articles/211060918-Manage-How-You-Get-Paid' target='_blank' rel='noopener'>Источник: официальные способы получения денег</a> · <a href='https://www.upwork.com/pricing/freelancer' target='_blank' rel='noopener'>Источник: комиссии</a></p>"},
+ ysense:{title:"ySense — опросы и предложения",body:"<p>Это вариант для небольших нерегулярных вознаграждений, а не стабильная зарплата. Количество опросов и доступные способы вывода зависят от страны и профиля.</p><p><b>Важное ограничение:</b> PayPal в Турции не позволяет принимать платежи. До накопления баланса проверь раздел Cashout и убедись, что доступен способ, которым ты реально можешь воспользоваться. Не выполняй предложения, требующие оплаты или покупки.</p><p><a href='https://www.ysense.com/' target='_blank' rel='noopener'>Официальный сайт</a> · <a href='https://help.ysense.com/hc/en-us/articles/360031029812-When-and-how-will-I-get-paid-Cashout' target='_blank' rel='noopener'>Источник: порядок выплат</a> · <a href='https://history.paypal.com/tr/home' target='_blank' rel='noopener'>PayPal: статус в Турции</a></p>"},
+ direct:{title:"Прямые услуги — без платформенной комиссии",body:"<p><b>Что можно предложить:</b> карточки товаров, оформление объявлений, русско-турецкая переписка в пределах твоих навыков, помощь с описаниями товаров.</p><ol><li>Подготовь 2–3 примера.</li><li>Напиши потенциальным клиентам коротко и конкретно.</li><li>До начала согласуй цену, срок, число правок и способ оплаты.</li><li>Не выполняй большой бесплатный тест и не сообщай коды подтверждения.</li></ol><p>Это не сервис с гарантированными заказами, зато можно договариваться об оплате напрямую.</p>"}
+};
+const dlg=document.getElementById("detailDialog");
+document.querySelectorAll("[data-detail]").forEach(btn=>btn.addEventListener("click",()=>{const d=details[btn.dataset.detail];document.getElementById("dialogTitle").textContent=d.title;document.getElementById("dialogBody").innerHTML=d.body;dlg.showModal()}));
+document.getElementById("closeDialog").onclick=()=>dlg.close();document.getElementById("dialogDone").onclick=()=>dlg.close();
+document.querySelectorAll(".filter").forEach(btn=>btn.addEventListener("click",()=>{document.querySelectorAll(".filter").forEach(b=>b.classList.remove("active"));btn.classList.add("active");const f=btn.dataset.filter;document.querySelectorAll(".card").forEach(card=>{card.hidden=!(f==="all"||card.dataset.tags.split(" ").includes(f))})}));
+const orders=document.getElementById("orders"),price=document.getElementById("price"),costs=document.getElementById("costs");
+const fmt=n=>Math.round(n).toLocaleString("ru-RU")+" ₽";
+function calc(){const o=+orders.value,p=+price.value,c=+costs.value;document.getElementById("ordersVal").textContent=o;document.getElementById("priceVal").textContent=fmt(p);document.getElementById("costsVal").textContent=fmt(c);const m=o*p*4.33-c;document.getElementById("monthly").textContent=fmt(m);document.getElementById("annual").textContent="Около "+fmt(m*12)+" за 12 месяцев при тех же условиях."}
+[orders,price,costs].forEach(el=>el.addEventListener("input",calc));calc();
+</script>
+</body>
+</html>
